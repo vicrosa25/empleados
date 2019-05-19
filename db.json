@@ -1,0 +1,34 @@
+{
+  "empleados": [
+    {
+      "id": "40",
+      "nombre": "Víctor",
+      "edad": 40,
+      "empresaId": "2"
+    },
+    {
+      "id": "41",
+      "nombre": "Martín",
+      "edad": 40,
+      "empresaId": "2"
+    },
+    {
+      "name": "Alicia",
+      "edad": 25,
+      "empresaId": "1",
+      "id": "S1TKHzuwl"
+    }
+  ],
+  "empresas": [
+    {
+      "id": "1",
+      "nombre": "Apple",
+      "descripcion": "iphone"
+    },
+    {
+      "id": "2",
+      "nombre": "Google",
+      "descripcion": "search"
+    }
+  ]
+}
