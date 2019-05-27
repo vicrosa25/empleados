@@ -104,7 +104,7 @@ const mutation = new GraphQLObjectType({
       },
       resolve(parentValue, args) {
         return axios
-          .delete(`http://localhost:3000/empleados/${args.id}`, args)
+          .patch(`http://localhost:3000/empleados/${args.id}`, args)
           .then(res => res.data);
       }
     }
